@@ -52,6 +52,6 @@ The Car Rental System uses a relational database to store and manage data relate
 ### Clone the Repository
 Clone the project to your local machine:
 ```shell
-[git clone https://github.com/Akan19sha/CarRentalSystem.git](https://github.com/Akan19sha/CarRentalSystem.git)
+ https://github.com/Akan19sha/CarRentalSystem.git
 ```
 
