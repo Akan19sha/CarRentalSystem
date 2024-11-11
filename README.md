@@ -9,6 +9,8 @@ The Car Rental System is a backend web application developed to automate car ren
 - **Logging and Error Handling**: Track key actions and errors for debugging.
 - **Unit and Integration Testing**: Ensures reliability with JUnit and Mockito.
 
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -17,11 +19,6 @@ To run this project, ensure you have the following installed:
 - [Maven](https://maven.apache.org/)
 - [MySQL](https://dev.mysql.com/downloads/)
 - [Eclipse IDE](https://www.eclipse.org/downloads/)
-
-### Clone the Repository
-Clone the project to your local machine:
-```shell
-git clone https://github.com/Akan19sha/CarRentalSystem.git
 
 ## Run in your System
 1. **Open Project in Eclipse**
@@ -49,6 +46,13 @@ The Car Rental System uses a relational database to store and manage data relate
 - **`Car`**: Stores information about the cars available for rental.
 - **`Reservation`**: Tracks customer reservations.
 - **`Billing`**: Stores billing and payment information related to reservations.
+
+
+
+### Clone the Repository
+Clone the project to your local machine:
+```shell
+git clone https://github.com/Akan19sha/CarRentalSystem.git
 
 
 
