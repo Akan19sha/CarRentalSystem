@@ -1,0 +1,75 @@
+2024-11-11T15:53:14.815+05:30  INFO 27204 --- [carRentalSystem] [main] c.e.demo.CarRentalSystemApplication      : Starting CarRentalSystemApplication using Java 23 with PID 27204 (C:\Users\DELL\eclipse-workspace\carRentalSystem\target\classes started by DELL in C:\Users\DELL\eclipse-workspace\carRentalSystem)
+2024-11-11T15:53:14.819+05:30  INFO 27204 --- [carRentalSystem] [main] c.e.demo.CarRentalSystemApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-11T15:53:15.502+05:30  INFO 27204 --- [carRentalSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-11T15:53:15.560+05:30  INFO 27204 --- [carRentalSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+2024-11-11T15:53:16.046+05:30  INFO 27204 --- [carRentalSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-11T15:53:16.063+05:30  INFO 27204 --- [carRentalSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-11T15:53:16.063+05:30  INFO 27204 --- [carRentalSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-11T15:53:16.133+05:30  INFO 27204 --- [carRentalSystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-11T15:53:16.133+05:30  INFO 27204 --- [carRentalSystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1245 ms
+2024-11-11T15:53:16.311+05:30  INFO 27204 --- [carRentalSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-11T15:53:16.390+05:30  INFO 27204 --- [carRentalSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-11T15:53:16.431+05:30  INFO 27204 --- [carRentalSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-11T15:53:16.824+05:30  INFO 27204 --- [carRentalSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-11T15:53:16.862+05:30  INFO 27204 --- [carRentalSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-11T15:53:17.351+05:30  INFO 27204 --- [carRentalSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65d7eea4
+2024-11-11T15:53:17.354+05:30  INFO 27204 --- [carRentalSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-11T15:53:17.429+05:30  WARN 27204 --- [carRentalSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-11T15:53:17.431+05:30  WARN 27204 --- [carRentalSystem] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-11T15:53:18.201+05:30  INFO 27204 --- [carRentalSystem] [main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.example.demo.entity.Car (class must be instantiated by Interceptor)
+2024-11-11T15:53:18.243+05:30  INFO 27204 --- [carRentalSystem] [main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.example.demo.entity.Reservation (class must be instantiated by Interceptor)
+2024-11-11T15:53:18.446+05:30  INFO 27204 --- [carRentalSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-11T15:53:18.551+05:30  INFO 27204 --- [carRentalSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-11T15:53:18.941+05:30  WARN 27204 --- [carRentalSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-11T15:53:19.287+05:30  INFO 27204 --- [carRentalSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-11T15:53:19.294+05:30  INFO 27204 --- [carRentalSystem] [main] c.e.demo.CarRentalSystemApplication      : Started CarRentalSystemApplication in 4.884 seconds (process running for 5.711)
+2024-11-11T15:54:48.294+05:30  INFO 27204 --- [carRentalSystem] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-11T15:54:48.294+05:30  INFO 27204 --- [carRentalSystem] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-11T15:54:48.296+05:30  INFO 27204 --- [carRentalSystem] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-11T15:54:48.339+05:30  INFO 27204 --- [carRentalSystem] [http-nio-8080-exec-2] com.example.demo.service.CarService      : details of all cars
+2024-11-11T15:55:34.255+05:30  INFO 27204 --- [carRentalSystem] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-11-11T15:55:34.266+05:30  INFO 27204 --- [carRentalSystem] [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-11T15:55:34.269+05:30  INFO 27204 --- [carRentalSystem] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-11T15:55:34.277+05:30  INFO 27204 --- [carRentalSystem] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-11T15:55:40.472+05:30  INFO 5188 --- [carRentalSystem] [main] c.e.demo.CarRentalSystemApplication      : Starting CarRentalSystemApplication using Java 23 with PID 5188 (C:\Users\DELL\eclipse-workspace\carRentalSystem\target\classes started by DELL in C:\Users\DELL\eclipse-workspace\carRentalSystem)
+2024-11-11T15:55:40.475+05:30  INFO 5188 --- [carRentalSystem] [main] c.e.demo.CarRentalSystemApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-11-11T15:55:41.020+05:30  INFO 5188 --- [carRentalSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-11T15:55:41.072+05:30  INFO 5188 --- [carRentalSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 3 JPA repository interfaces.
+2024-11-11T15:55:41.507+05:30  INFO 5188 --- [carRentalSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-11T15:55:41.520+05:30  INFO 5188 --- [carRentalSystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-11T15:55:41.521+05:30  INFO 5188 --- [carRentalSystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-11T15:55:41.576+05:30  INFO 5188 --- [carRentalSystem] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-11T15:55:41.576+05:30  INFO 5188 --- [carRentalSystem] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1044 ms
+2024-11-11T15:55:41.709+05:30  INFO 5188 --- [carRentalSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-11T15:55:41.761+05:30  INFO 5188 --- [carRentalSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-11T15:55:41.790+05:30  INFO 5188 --- [carRentalSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-11T15:55:42.086+05:30  INFO 5188 --- [carRentalSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-11T15:55:42.112+05:30  INFO 5188 --- [carRentalSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-11T15:55:42.510+05:30  INFO 5188 --- [carRentalSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@632c3f55
+2024-11-11T15:55:42.512+05:30  INFO 5188 --- [carRentalSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-11T15:55:42.556+05:30  WARN 5188 --- [carRentalSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-11T15:55:42.556+05:30  WARN 5188 --- [carRentalSystem] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-11T15:55:43.209+05:30  INFO 5188 --- [carRentalSystem] [main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.example.demo.entity.Reservation (class must be instantiated by Interceptor)
+2024-11-11T15:55:43.388+05:30  INFO 5188 --- [carRentalSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-11T15:55:43.464+05:30  INFO 5188 --- [carRentalSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-11T15:55:43.811+05:30  WARN 5188 --- [carRentalSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-11T15:55:44.167+05:30  INFO 5188 --- [carRentalSystem] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-11T15:55:44.180+05:30  INFO 5188 --- [carRentalSystem] [main] c.e.demo.CarRentalSystemApplication      : Started CarRentalSystemApplication in 4.039 seconds (process running for 4.702)
+2024-11-11T15:55:46.901+05:30  INFO 5188 --- [carRentalSystem] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-11T15:55:46.901+05:30  INFO 5188 --- [carRentalSystem] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-11T15:55:46.902+05:30  INFO 5188 --- [carRentalSystem] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-11T15:55:46.936+05:30  INFO 5188 --- [carRentalSystem] [http-nio-8080-exec-2] com.example.demo.service.CarService      : details of all cars
+2024-11-11T16:01:55.101+05:30  WARN 5188 --- [carRentalSystem] [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1048, SQLState: 23000
+2024-11-11T16:01:55.102+05:30 ERROR 5188 --- [carRentalSystem] [http-nio-8080-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : Column 'end_date' cannot be null
+2024-11-11T16:04:40.175+05:30  WARN 5188 --- [carRentalSystem] [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1048, SQLState: 23000
+2024-11-11T16:04:40.175+05:30 ERROR 5188 --- [carRentalSystem] [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : Column 'end_date' cannot be null
+2024-11-11T16:05:27.596+05:30  WARN 5188 --- [carRentalSystem] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1048, SQLState: 23000
+2024-11-11T16:05:27.597+05:30 ERROR 5188 --- [carRentalSystem] [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Column 'end_date' cannot be null
+2024-11-11T16:06:08.155+05:30  WARN 5188 --- [carRentalSystem] [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1048, SQLState: 23000
+2024-11-11T16:06:08.155+05:30 ERROR 5188 --- [carRentalSystem] [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Column 'end_date' cannot be null
+2024-11-11T16:16:00.658+05:30  INFO 5188 --- [carRentalSystem] [http-nio-8080-exec-4] com.example.demo.service.CarService      : details of cars that are available
+2024-11-11T16:16:15.905+05:30  INFO 5188 --- [carRentalSystem] [http-nio-8080-exec-5] com.example.demo.service.CarService      : details of all cars
+2024-11-11T16:27:52.212+05:30  INFO 5188 --- [carRentalSystem] [RMI TCP Connection(34)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-11-11T16:27:52.246+05:30  INFO 5188 --- [carRentalSystem] [RMI TCP Connection(34)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-11T16:27:52.253+05:30  INFO 5188 --- [carRentalSystem] [RMI TCP Connection(34)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-11T16:27:52.263+05:30  INFO 5188 --- [carRentalSystem] [RMI TCP Connection(34)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
