@@ -1,17 +1,27 @@
-#OVERVIEW
-The main objective of this project is to provide a design for the CRS (Car Rental System). This system allows users to browse available cars, make reservations, and manage payments. It can also track all the details of cars, reservations and payments. The design includes the structure for inventory management, reservations, billing, and monitoring/logging.it is a car rental platform where users can browse available cars,
-make bookings, and manage reservations. Including a billing system with tracking
-and reports.
+# Car Rental System
 
-#Tech Stack
-Programming Language: - Java
-Frameworks: - Spring boot, Spring Web MVC, Spring Data JPA
-Database: - MySql
-Built Tool: - Maven
-IDE: - Eclipse
-Monitoring and Documentation: - Spring boot actuator
-Logging: - SLF4J/Logback
-Testing: - Junit, Mockito, MockMVC
-Manual testing: - Postman
+The Car Rental System is a backend web application developed to automate car rental operations, offering a streamlined solution for managing car inventory, processing reservations, handling billing, and generating reports. This application is built to provide efficiency and ease of use for both rental agencies and customers.
+
+## Features
+- **User Management**: Role-based user access (Admin and Customers).
+- **Car Inventory Management**: Track available and rented cars.
+- **Reservation System**: Manage reservations with booking and canceling functionalities.
+- **Billing and Payment Processing**: Process payments and generate bills for reservations.
+- **Logging and Error Handling**: Track key actions and errors for debugging.
+- **Unit and Integration Testing**: Ensures reliability with JUnit and Mockito.
+
+## Getting Started
+
+### Prerequisites
+To run this project, ensure you have the following installed:
+- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
+- [Maven](https://maven.apache.org/)
+- [MySQL](https://dev.mysql.com/downloads/)
+- [Eclipse IDE](https://www.eclipse.org/downloads/)
+
+### Clone the Repository
+Clone the project to your local machine:
+```shell
+git clone https://github.com/Akan19sha/CarRentalSystem.git
 
 
